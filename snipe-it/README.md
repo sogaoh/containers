@@ -1,7 +1,7 @@
 # snipe-it 
 
 ## これは何？
-個人的に snipe-it を動かしてみるする意図の環境起動用ファイル一式です
+個人的に snipe-it を動かしてみる意図の環境起動用ファイル一式です
 
 ## Pre-requirements
 - Docker
@@ -9,6 +9,11 @@
 
 
 ## 起動方法
+
+.env の調整：以下を決めて記述してください
+- YOUR_SUPER_SECRET_PASSWORD
+- YOUR_snipeit_USER_PASSWORD
+
 
 初回の起動
 ```
