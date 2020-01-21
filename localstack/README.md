@@ -36,15 +36,15 @@ make up
 
 Then, try below.
 ```
-❯ aws --endpoint-url http://localhost:4572 --profile localstack s3 ls s3://
+aws --endpoint-url http://localhost:4572 --profile localstack s3 ls s3://
 
-❯ aws --endpoint-url http://localhost:4572 --profile localstack s3 mb s3://test
+aws --endpoint-url http://localhost:4572 --profile localstack s3 mb s3://test
 
-❯ aws --endpoint-url http://localhost:4572 --profile localstack s3 cp "$PWD/README.md"  s3://test
+aws --endpoint-url http://localhost:4572 --profile localstack s3 cp "$PWD/README.md"  s3://test
 
-❯ aws --endpoint-url http://localhost:4572 --profile localstack s3 ls s3://test/
+aws --endpoint-url http://localhost:4572 --profile localstack s3 ls s3://test/
 
-❯ aws --endpoint-url http://localhost:4572 --profile localstack s3 cp s3://test/README.md /path/to/out/
+aws --endpoint-url http://localhost:4572 --profile localstack s3 cp s3://test/README.md /path/to/out/
 ```
 
 & Overview: http://localhost:7001/#!/infra 
